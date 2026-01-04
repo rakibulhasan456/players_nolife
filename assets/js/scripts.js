@@ -1,4 +1,4 @@
-const API_URL = "https://servers-frontend.fivem.net/api/servers/single/5d7oq7";
+const API_URL = "https://servers-frontend.fivem.net/api/servers/single/amx64e";
 
 const playersTable = document.querySelector("#playersTable tbody");
 const playerCount = document.querySelector("#playerCount");
@@ -103,5 +103,6 @@ favTab.addEventListener("click", () => {
 searchInput.addEventListener("input", renderTable);
 
 fetchPlayers();
+
 
 
